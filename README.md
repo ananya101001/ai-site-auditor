@@ -147,7 +147,7 @@ flowchart TD
 
 ## 🌐 Live Demo
 
-Deployed on Vercel: **[ai-site-auditor.vercel.app](https://ai-site-auditor.vercel.app)**
+Deployed on Vercel: **[ai-site-auditor.vercel.app](https://ai-site-auditor1-b92hai4sh-ananya-praveen-shettys-projects.vercel.app/)**
 
 ---
 
