@@ -1,0 +1,81 @@
+{
+  "url": "https://example-ecommerce.com",
+  "generatedAt": "2026-05-05T15:30:00Z",
+  "overview": {
+    "score": 67,
+    "summary": "The site has a functional structure but is missing several critical SEO and performance optimizations. Quick wins include adding meta descriptions, fixing missing alt text, and improving mobile responsiveness. Addressing these issues could significantly boost organic traffic and conversion rates."
+  },
+  "seo": {
+    "score": 58,
+    "issues": [
+      "Missing meta description on homepage",
+      "No H1 tag found on 3 pages",
+      "6 images are missing alt text",
+      "Duplicate title tags detected across product pages",
+      "No canonical tags set"
+    ],
+    "recommendations": [
+      "Add a unique meta description (under 160 characters) to every page",
+      "Ensure each page has exactly one H1 tag that includes the primary keyword",
+      "Add descriptive alt text to all images for accessibility and image SEO",
+      "Use unique, descriptive title tags per page to avoid duplicate content issues",
+      "Add canonical tags to prevent search engines from indexing duplicate URLs"
+    ]
+  },
+  "performance": {
+    "score": 72,
+    "issues": [
+      "3 large inline JavaScript blocks detected (>50KB each)",
+      "Images are not using lazy loading",
+      "No viewport meta tag found",
+      "Render-blocking CSS found in <head>",
+      "No compression (gzip/brotli) detected on assets"
+    ],
+    "recommendations": [
+      "Move inline scripts to external files and defer or async load them",
+      "Add loading='lazy' attribute to all below-the-fold images",
+      "Add <meta name='viewport' content='width=device-width, initial-scale=1'> for mobile support",
+      "Move non-critical CSS to the bottom of the page or use media queries",
+      "Enable gzip or brotli compression on your server to reduce asset sizes"
+    ]
+  },
+  "ux": {
+    "score": 74,
+    "issues": [
+      "No viewport meta tag — site is not mobile friendly",
+      "Call-to-action buttons are too small (under 44px touch target)",
+      "Low color contrast on footer text (ratio: 2.8:1, minimum is 4.5:1)",
+      "No skip navigation link for keyboard users",
+      "Form fields missing visible labels"
+    ],
+    "recommendations": [
+      "Add a viewport meta tag immediately to enable proper mobile rendering",
+      "Increase all CTA button sizes to a minimum of 44x44px for touch accessibility",
+      "Increase footer text color contrast to at least 4.5:1 for WCAG AA compliance",
+      "Add a 'Skip to main content' link at the top of the page for keyboard navigation",
+      "Add visible <label> elements to all form inputs for usability and accessibility"
+    ]
+  },
+  "content": {
+    "score": 63,
+    "issues": [
+      "Homepage has fewer than 300 words — thin content",
+      "No blog or resources section found",
+      "Product descriptions are generic and duplicated across variants",
+      "No customer testimonials or trust signals visible",
+      "Missing FAQ section that could capture long-tail keywords"
+    ],
+    "recommendations": [
+      "Expand homepage copy to at least 500 words with clear value propositions",
+      "Start a blog targeting informational keywords relevant to your products",
+      "Write unique, detailed product descriptions for each variant",
+      "Add a testimonials section with real customer reviews to build trust",
+      "Create an FAQ page to answer common questions and capture long-tail search traffic"
+    ]
+  },
+  "quickWins": [
+    "Add meta descriptions to all pages — takes under 30 minutes and directly improves click-through rates from search results",
+    "Fix missing alt text on 6 images — improves accessibility compliance and image search visibility immediately",
+    "Add the viewport meta tag — instantly makes the site mobile-friendly and prevents Google mobile ranking penalties"
+  ]
+}
